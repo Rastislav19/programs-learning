@@ -1,0 +1,20 @@
+farby=["biela","modrá","červená","žltá","zelená","čierna"]
+print("Dĺžka zoznamu je=",len(farby),"prvkov")
+print("Piaty prvok je=",farby[4])
+print("Zoznam po tretí prvok=",farby[:2])
+print("Zoznam od druhúho prvku=",farby[1:])
+print("Obrátený zoznam je=",farby[::-1])
+del farby[2:4]
+print("Zoznam po vymazaní 3. a 4. prvku je=",farby)
+farby.pop()
+print("Zoznam po odstránení posledného prvku je=",farby)
+farby.append("oranžová")
+print("Zoznam po pridaní oranžovej farby na koniec je=",farby)
+farby.insert(1,"fialová")
+print("Zoznam po pridaní fialovej farby na 2. pozíciu je=",farby)
+farby.sort()
+print("Zoznam podľa abecedy je=",farby)
+
+print()
+input("Pre skončenie stalč ENTER.")
+quit()

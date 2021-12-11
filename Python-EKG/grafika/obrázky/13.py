@@ -1,0 +1,18 @@
+import tkinter as tk
+plocha=tk.Canvas()
+plocha.pack()
+#auto
+plocha.create_rectangle()
+plocha.create_rectangle()
+plocha.create_rectangle()
+plocha.create_line()
+plocha.create_line()
+plocha.create_line()
+plocha.create_line()
+plocha.create_line()
+plocha.create_oval()
+plocha.create_oval()
+plocha.create_oval()
+plocha.create_oval()
+plocha.create_oval()
+plocha.create_oval()
